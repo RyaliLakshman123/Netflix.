@@ -51,7 +51,7 @@ struct MovieDetailView: View {
     }
 
     private func fetchTrailer() {
-        guard let url = URL(string: "https://api.themoviedb.org/3/movie/\(movie.id)/videos?api_key=8d0e5bb27c4c28904e24b540f7415a84") else {
+        guard let url = URL(string: "https://api.themoviedb.org/3/movie/\(movie.id)/videos?api_key=") else {
             isLoading = false
             return
         }

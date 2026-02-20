@@ -9,7 +9,7 @@ import Foundation
 
 @MainActor
 class TMDBService: ObservableObject {
-    private let apiKey = "8d0e5bb27c4c28904e24b540f7415a84" 
+    private let apiKey = "" 
     private let baseURL = "https://api.themoviedb.org/3"
     private let netflixProviderId = 8 // Netflix provider ID on TMDB
     

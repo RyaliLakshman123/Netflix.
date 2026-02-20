@@ -33,4 +33,3 @@ struct MovieVideosResponse: Decodable {
     let results: [MovieVideo]
 }
 
-// https://api.themoviedb.org/3/movie/popular?api_key=8d0e5bb27c4c28904e24b540f7415a84
